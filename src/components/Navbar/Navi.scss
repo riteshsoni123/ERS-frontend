@@ -1,3 +1,33 @@
 .block{
   margin-left: 50vw;
 }
+.animate-logo{
+  width: 80px;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(-5deg);
+    transform-origin: bottom right;
+  }
+  25%{
+    transform: rotate(0deg);
+    transform-origin: bottom right;
+  }
+  50%{
+    transform: rotate(5deg);
+    transform-origin: bottom right;
+  }
+  75%{
+    transform: rotate(0deg);
+    transform-origin: bottom right;
+  }
+  100%{
+    transform: rotate(-5deg);
+    transform-origin: bottom right;
+  }
+}
