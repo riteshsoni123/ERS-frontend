@@ -7,7 +7,8 @@
   margin: 3vh 0;
   color: #0a183d;
 }
-.entry h1 span{
+
+.entry h1 span {
   color: #b71540;
 }
 
@@ -16,18 +17,31 @@
   margin: 4vh 0;
 }
 
-.entry h4 span{
+.entry h4 span {
   color: #b71540;
 }
+
 .entry p {
   margin: 5vh 0;
 }
 
+
 .entryImg {
   padding-top: 16vh;
   padding-right: 6vw;
+  -webkit-animation: anime_hero 10s linear infinite alternate;
+  animation: anime_hero 10s linear infinite alternate;
 }
 
-.tourBtn{
+@keyframes anime_hero {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.tourBtn {
   Background: #b71540;
 }
