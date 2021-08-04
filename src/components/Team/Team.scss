@@ -1,0 +1,127 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-md-3{
+    width: 80%;
+    height: 74%;
+    position: relative;
+    border-radius: 15px;
+    transition: 0.4s ease-out;
+}
+.tmp{
+    transition: 0.4s ease-out;
+    width: 23%;
+    height: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container .row .tmp .col-md-3 img{
+    width: 100%;
+    height: 100%;;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px black;
+}
+.infonew{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    width: 90%;
+    color: white;
+    transition: 0.4s ease-out;
+}
+
+.infonew >*{
+    display: none;
+    padding: 0px;
+    text-align: left;
+    transition: 1s ease-out;
+}
+.infonew a{
+    color:white; 
+    background-color: black;
+    margin: 0px 8px;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.infonew h3 , .infonew p , .infonew div{
+    margin: 0px;
+    padding: 0px;
+}
+.student ,.fic{
+    margin-top: 100px;
+}
+
+.col-md-3:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.4s ease-out;
+}
+.col-md-3:hover{
+    transform: translateY(15px);
+}
+.col-md-3:hover::before{
+    background-color: black;
+    opacity: 0.5;
+}
+.col-md-3:hover > .infonew{
+    bottom: 20px;
+}
+.col-md-3:hover > .infonew h3{
+    display: block;
+}
+.col-md-3:hover > .infonew p{
+    display: block;
+}
+.col-md-3:hover > .infonew div{
+    display: block;
+}
+.col-md-3:hover > .infonew a{
+    display: inline-flex;
+}
+
+
+@media (max-width:1020px){
+    .tmp{
+        width: 34%;
+    }
+}
+
+@media (min-width:773px) and (max-width:992px){
+    .tmp{
+        width: 44%;
+    }
+}
+
+@media (max-width:773px){
+    .tmp{
+        width: 50%;
+    }
+}
+
+@media (max-width:576px){
+    .tmp{
+        width: 322px;
+    }
+}
