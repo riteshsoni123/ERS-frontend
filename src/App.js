@@ -3,6 +3,7 @@ import Navi from "./components/Navbar/Navi";
 import About from "./components/About/About";
 import Landing from "./components/Landing/Landing";
 import Team from "./components/Team/Team";
+import Map from "./components/Map/Map";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Landing/>
         <About/>
         <Team/>
+        <Map/>
     </div>
   );
 }
