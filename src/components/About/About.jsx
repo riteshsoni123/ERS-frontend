@@ -5,17 +5,17 @@ import robo from "./robo.webp";
 
 const About = () => {
     return (
-        <section id="about" class="about container-fluid">
-            <div class="title container">
+        <section id="about" className="about container-fluid">
+            <div className="title container">
                 <h2>About US</h2>
-                <div class="row">
-                    <div class="col-lg-6 col-10 mx-auto">
-                        <figure class="about_hero__img">
+                <div className="row">
+                    <div className="col-lg-6 col-10 mx-auto">
+                        <figure className="about_hero__img">
                             <img className="animate-robo" src={robo} alt="robo" />
                         </figure>
                     </div>
-                    <div class="col-lg-6 col-10 mx-auto">
-                        <div class="about_hero__text">
+                    <div className="col-lg-6 col-10 mx-auto">
+                        <div className="about_hero__text">
                             <h4>The Robotics Club of IIITDM Jabalpur is a fraternity, not just a group but a faction of such students
                                 whose passions dwell in beholding wires and metal beget a machine that has a brain of its own.<br /><br />
                                 It's here, that seeds of lecturing are sown by those experienced and erudite, nurtured by the
