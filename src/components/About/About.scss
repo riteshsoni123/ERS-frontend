@@ -28,8 +28,8 @@ section {
     margin-left: 70px;
 }
 .aboutus{
-  padding-left: 70px;
-  margin-left: 70px;
+   padding-left: 70px;
+   margin-left: 70px;
   font-weight: 1600;
   font-size: 50px;
 }
@@ -78,6 +78,7 @@ div {
 
 .about .title h2 {
     font-size: 3rem;
+    margin-left: 20px;
 }
 
 @media (min-width:1200px)  and (max-width:1400px){
@@ -92,6 +93,7 @@ h2{
 
 h2{
     margin-top: 0;
+    margin-left: 20px !important;
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -168,8 +170,8 @@ h2{
 
 .about .title .about_hero__text {
     // margin-top: 14rem;
-    margin-bottom: 14rem;
-    height: 10vh;
+    margin-bottom: 14rem !important;
+    height: 10vh !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -187,7 +189,7 @@ h2{
 
 .about .title .about_hero__text h4 {
     color: rgb(255, 255, 255);
-    font-size: 1.11rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -227,7 +229,7 @@ h4 {
     }
     .about .title .about_hero__text h4 {
         color: rgb(255, 255, 255);
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: 500;
     }
 }

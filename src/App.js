@@ -1,9 +1,9 @@
-import './App.css';
 import Navi from "./components/Navbar/Navi";
 import About from "./components/About/About";
 import Landing from "./components/Landing/Landing";
 import Team from "./components/Team/Team";
 import Map from "./components/Map/Map";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <About/>
         <Team/>
         <Map/>
+        <Footer/>
     </div>
   );
 }
