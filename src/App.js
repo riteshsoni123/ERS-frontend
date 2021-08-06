@@ -4,6 +4,7 @@ import Landing from "./components/Landing/Landing";
 import Team from "./components/Team/Team";
 import Map from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
+import Event from "./components/Event/Event";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navi/>
         <Landing/>
         <About/>
+        <Event/>
         <Team/>
         <Map/>
         <Footer/>

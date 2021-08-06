@@ -52,8 +52,8 @@ const Team = () => {
                             <h3>Ayush Mishra</h3>
                             <p>Coordinator</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/ayush-mishra-a71688127/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://youtube.com/channel/UCPY8rVtrR8cCqb3jmMtek4w" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/ayush-mishra-a71688127/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/ayuayush18/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
                         </div>
                         <img src={img5} alt="robo" />
@@ -65,8 +65,8 @@ const Team = () => {
                             <h3>Arunabh Mittal</h3>
                             <p>Co Coordinator</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/arunabh-mittal-96185a193/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/bazinga._.forever/" target="_blank" ><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/arunabh-mittal-96185a193/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/bazinga._.forever/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -79,8 +79,8 @@ const Team = () => {
                             <h3>Rajat Kumar</h3>
                             <p>Project Manager</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/rajat-kumar-66466a193/" target="_blank" ><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/rajat23101/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/rajat-kumar-66466a193/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/rajat23101/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -93,8 +93,8 @@ const Team = () => {
                             <h3>Ayush Kumar</h3>
                             <p>Mesh Analyzer</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/ayush-kumar-157628207" target="_blank" class="box"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/ayushk0806/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/ayush-kumar-157628207" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/ayushk0806/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -109,8 +109,8 @@ const Team = () => {
                             <h3>Arihant Jain</h3>
                             <p>Mesh Analyzer</p>
                             <div>
-                                <a href="https://in.linkedin.com/in/arihant-jain-09" target="_blank" class="box"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/arihant_jain_09/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://in.linkedin.com/in/arihant-jain-09" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/arihant_jain_09/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -123,8 +123,8 @@ const Team = () => {
                             <h3>Somya Prajapati</h3>
                             <p>Developer</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/somya51p/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/_somya2001p_" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/somya51p/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/_somya2001p_" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -137,8 +137,8 @@ const Team = () => {
                             <h3>Anurag Vij</h3>
                             <p>CAD Expert</p>
                             <div>
-                                <a href="http://www.linkedin.com/in/anurag-vij-2b259a207" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/anuragvij56/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="http://www.linkedin.com/in/anurag-vij-2b259a207" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/anuragvij56/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -151,8 +151,8 @@ const Team = () => {
                             <h3>Abhishek Yadav</h3>
                             <p>Quantum Neoretic</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/abhishek-yadav-765672198" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/invites/contact/?i=1naumwdbbt1j7&amp;utm_content=6qhrdxs" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/abhishek-yadav-765672198" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/invites/contact/?i=1naumwdbbt1j7&amp;utm_content=6qhrdxs" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -167,8 +167,8 @@ const Team = () => {
                             <h3>Priyansh Nama</h3>
                             <p>Coding Ninja</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/priyanshnama/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://www.instagram.com/priyanshnama/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/priyanshnama/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.instagram.com/priyanshnama/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -181,8 +181,8 @@ const Team = () => {
                             <h3>Shivam Sourav Jha</h3>
                             <p>Coding Ninja</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/shivamsouravjha" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="https://instagram.com/shivamsouravjha?utm_medium=copy_link" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="https://www.linkedin.com/in/shivamsouravjha" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://instagram.com/shivamsouravjha?utm_medium=copy_link" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                             </div>
 
                         </div>
@@ -195,7 +195,7 @@ const Team = () => {
                             <h3>Parv Yadav</h3>
                             <p>Digital Manager</p>
                             <div>
-                                <a href=" https://www.linkedin.com/in/parv-yadav-b54480193/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href=" https://www.linkedin.com/in/parv-yadav-b54480193/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                             </div>
 
                         </div>
