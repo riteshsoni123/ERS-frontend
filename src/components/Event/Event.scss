@@ -8,11 +8,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
 }
-.container h2{
+.event-heading{
     margin-top: 20px;
 }
-.team-section{
+.event-section{
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -76,7 +77,7 @@
     .event-card{
         width: 300px;
     }
-    .team-section{
+    .event-section{
         justify-content: space-around;
     }
 }

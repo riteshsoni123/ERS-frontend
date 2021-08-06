@@ -3,12 +3,8 @@ import About from "./components/About/About";
 import Landing from "./components/Landing/Landing";
 import Team from "./components/Team/Team";
 import Map from "./components/Map/Map";
-<<<<<<< HEAD
-import Events from "./components/Events/Events";
 import Footer from "./components/Footer/Footer";
-=======
 import Events from "./components/Event/Event";
->>>>>>> demobranch
 
 function App() {
   return (

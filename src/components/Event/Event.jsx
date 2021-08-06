@@ -9,8 +9,8 @@ import img4 from "./images/22.webp";
 const Event = () => {
     return (
         <section className="container">
-            <h2>Events</h2>
-            <div className="team-section">
+            <h2 className="event-heading">Events</h2>
+            <div className="event-section">
                 <div className="event-card">
                     <div className="event-box">
                         <div className="event-image">
