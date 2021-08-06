@@ -1,33 +1,124 @@
-.block{
-  margin-left: 50vw;
+.block {
+    margin-left: 12vw;
 }
-.animate-logo{
-  width: 80px;
-  animation-name: spin;
-  animation-duration: 2000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+
+* {
+    margin: 0rem;
+}
+
+.nav-color {
+    background-color: #030b22;
+}
+
+.animate-logo {
+    width: 80px;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.logo-size {
+    height: 60px;
+    width: 90px;
+}
+
+.logo-size:hover {
+    background-color: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 90px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    // box-shadow: 0px 5px 10px 2px white;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    // 100% {
+    //     transform: rotate(0deg);
+    // }
 }
 
 @keyframes spin {
-  0%{
-    transform: rotate(-5deg);
-    transform-origin: bottom right;
-  }
-  25%{
-    transform: rotate(0deg);
-    transform-origin: bottom right;
-  }
-  50%{
-    transform: rotate(5deg);
-    transform-origin: bottom right;
-  }
-  75%{
-    transform: rotate(0deg);
-    transform-origin: bottom right;
-  }
-  100%{
-    transform: rotate(-5deg);
-    transform-origin: bottom right;
-  }
+    0% {
+        transform: rotate(-5deg);
+        transform-origin: bottom right;
+    }
+    25% {
+        transform: rotate(0deg);
+        transform-origin: bottom right;
+    }
+    50% {
+        transform: rotate(5deg);
+        transform-origin: bottom right;
+    }
+    75% {
+        transform: rotate(0deg);
+        transform-origin: bottom right;
+    }
+    100% {
+        transform: rotate(-5deg);
+        transform-origin: bottom right;
+    }
+}
+
+.Nav_text {
+    font-size: 1.2rem;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.Nav_text:hover {
+    color: #b71540 !important;
+}
+
+.nav_container {
+    padding: 2rem;
+    margin: 1.2rem;
+    width: auto;
+    height: 3rem;
+}
+
+// .btn-size {
+//     height: 5rem;
+//     width: 14rem;
+//     margin: 2rem;
+//     border-radius: 2rem;
+// }
+.btn-size {
+    padding: 0.8rem 3.2rem;
+    background: #b71540;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border-radius: 4.5rem;
+    outline: none;
+    margin-right: 0rem !important;
+    margin-left: 3rem;
+    margin-top: 1.7rem;
+}
+
+.btn-size:hover {
+    background-color: white;
+    color: #030b22;
+    box-shadow: 2px 2px 50px 10px rgb(255, 255, 255);
+    margin-top: 0.5rem;
+}
+
+.nav-size {
+    height: 13rem;
+    width: 100%;
 }

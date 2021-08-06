@@ -19,7 +19,7 @@ const Landing = () => {
                 </div>
 
                 <div className="col-lg-6 entryImg">
-                    <img className="title-image" src={robotImage} alt="robot"/>
+                    <img className="title-image" id = "robot" src={robotImage} alt="robot"/>
                 </div>
 
             </div>

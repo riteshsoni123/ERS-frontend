@@ -1,47 +1,50 @@
 .entry {
-  text-align: left;
-  padding: 14vh 6vw;
+    text-align: left;
+    padding: 14vh 6vw;
 }
 
 .entry h1 {
-  margin: 3vh 0;
-  color: #0a183d;
+    margin: 3vh 0;
+    color: #0a183d;
 }
 
 .entry h1 span {
-  color: #b71540;
+    color: #b71540;
 }
 
 .entry h4 {
-  color: #0a183d;
-  margin: 4vh 0;
+    color: #0a183d;
+    margin: 4vh 0;
 }
 
 .entry h4 span {
-  color: #b71540;
+    color: #b71540;
 }
 
 .entry p {
-  margin: 5vh 0;
+    margin: 5vh 0;
 }
 
-
 .entryImg {
-  padding-top: 16vh;
-  padding-right: 6vw;
-  -webkit-animation: anime_hero 10s linear infinite alternate;
-  animation: anime_hero 10s linear infinite alternate;
+    padding-top: 16vh;
+    padding-right: 6vw;
+    -webkit-animation: anime_hero 10s linear infinite alternate;
+    animation: anime_hero 10s linear infinite alternate;
 }
 
 @keyframes anime_hero {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0.8);
-  }
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.8);
+    }
 }
 
 .tourBtn {
-  Background: #b71540;
+    Background: #b71540;
+}
+
+#robot {
+    filter: drop-shadow(0 -6mm 4mm rgba(8, 1, 10, 0.51));
 }
