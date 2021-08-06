@@ -64,6 +64,9 @@
     margin: 0px;
     padding: 0px;
 }
+.infonew p{
+    cursor: auto;
+}
 .student ,.fic{
     margin-top: 100px;
 }
@@ -99,6 +102,9 @@
 }
 .col-md-3:hover > .infonew a{
     display: inline-flex;
+}
+.infonew a:hover{
+    background-color: rgb(255, 57, 57);
 }
 
 
