@@ -5,6 +5,7 @@ import Team from "./components/Team/Team";
 import Map from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
 import Event from "./components/Event/Event";
+import Position from "./components/Position_Holder/Position_Holder";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About/>
         <Event/>
         <Team/>
+        <Position/>
         <Map/>
         <Footer/>
     </div>

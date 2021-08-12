@@ -1,0 +1,94 @@
+.position{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom:100px ;
+}
+.position h2{
+    margin: 20px 0px;
+}
+
+.current , .past{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 4px;
+}
+.individual{
+    // background-color: black;
+    width: 23%;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgb(83, 83, 83);
+    position: relative;
+}
+.individual >*{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.individual .co ,.individual .coco{
+    font-size: 18px;
+    opacity: 0;
+    transition: 0.4s ease-out;
+    position: absolute;
+}
+.coco{
+    top: 20px;
+    color: white;
+}
+.co{
+    top: 50px;
+    color: white;
+}
+
+.individual div h5{
+    margin-right: 10px;
+}
+.individual h3{
+    top: 40px;
+    position: absolute;
+    transition: 0.4s ease-out;
+}
+.individual:hover > .coco{
+    color: white;
+    opacity: 1;
+}
+.individual:hover > .co{
+    color: white;
+    opacity: 1;
+}
+.individual:hover > h3{
+    opacity: 0;
+}
+.individual:hover{
+    background-color: #030b22;
+    opacity: 0.8;
+}
+
+@media (max-width:1400px){
+    .individual{
+        width: 34%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:1000px) {
+    .individual{
+        width: 44%;
+        margin-top: 40px;
+    }
+}
+@media (max-width:800px) {
+    .individual{
+        width: 300px;
+        margin-top: 40px;
+    }
+}
