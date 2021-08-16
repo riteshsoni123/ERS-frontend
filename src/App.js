@@ -10,14 +10,14 @@ import Position from "./components/Position_Holder/Position_Holder";
 function App() {
   return (
     <div className="App">
-        <Navi/>
-        <Landing/>
-        <About/>
-        <Event/>
-        <Team/>
-        <Position/>
-        <Map/>
-        <Footer/>
+      <Navi />
+      <Landing />
+      <About />
+      <Event />
+      <Team />
+      <Position />
+      <Map />
+      <Footer />
     </div>
   );
 }
