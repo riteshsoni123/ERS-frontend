@@ -95,19 +95,6 @@ function Footer() {
             </tr>
             <tr>
               <td>
-                <div className="credit">
-                  Copyright ©2021 All rights reserved | Made with
-                  <b className="red"> ❤</b> by{" "}
-                  <a
-                    href="https://github.com/somya51p/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <b className="red">Somya Prajapati</b>
-                  </a>
-                </div>
-              </td>
-              <td>
                 <div className="social_handles">
                   <button className="btn-icon">
                     <a
