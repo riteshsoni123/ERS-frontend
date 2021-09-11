@@ -31,40 +31,32 @@
   margin-left: 2rem;
   border-radius: 2rem;
 }
-.message{
+.message {
   width: 20em;
   border-radius: 5rem;
 }
-.credit{
-  font-size: 0.95rem;
-  margin-top: 5em;
-  margin-left: 2em;
-}
-.red{
-  color: rgb(225, 54, 83);
-}
-.link-color{
+
+.link-color {
   color: white !important;
 }
-.social_handles{
-margin-left: 22em;
-margin-top: 5em;
+.social_handles {
+  margin-left: 1.5em;
+  margin-top: 2em;
 }
-.icon{
+.icon {
   margin: 1em;
   color: white;
   padding: 1em;
 }
 
-.btn-icon{
+.btn-icon {
   border: none;
   height: 3em !important;
   width: 3em !important;
   border-radius: 2em;
 }
-.btn-icon:hover{
+.btn-icon:hover {
   background-color: maroon;
-  
 }
 .footercontainer {
   overflow: hidden;
@@ -79,4 +71,79 @@ margin-top: 5em;
   justify-content: space-around;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .list-1-item {
+    font-size: small;
+    width: 200%;
+  }
+  .list-1-head {
+    font-size: small;
+    margin-top: 2rem;
+  }
+  .Footer_table {
+    margin-left: 0px;
+  }
+  .elem-2 {
+    padding-left: 0em;
+    font-size: small;
+  }
+  .list-2-head {
+    font-size: 1rem !important;
+  }
+  .message {
+    width: 8em;
+  }
+  .button {
+    margin-left: 0rem;
+  }
+  .list {
+    margin-top: 2rem;
+  }
+
+  .social_handles {
+    margin-left: 65%;
+    width: 300%;
+  }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+  .list-1-item {
+    font-size: medium;
+    width: 200%;
+  }
+  .list-1-head {
+    font-size: medium;
+    margin-top: 2rem;
+  }
+  .Footer_table {
+    margin-left: 0px;
+  }
+  .elem-2 {
+    padding-left: 10em;
+    font-size: medium;
+  }
+  .list-2-head {
+    font-size: 1rem !important;
+  }
+  .message {
+    width: 20em;
+  }
+  .button {
+    margin-left: 0rem;
+  }
+  .list {
+    margin-top: 2rem;
+  }
+
+  .social_handles {
+    margin-left: 150%;
+    width: 300%;
+  }
+}
+@media (max-width:1024px) and (min-width:769px){
+  .social_handles{
+    margin-left: 150%;
+    width: 300%;
+  }
 }
