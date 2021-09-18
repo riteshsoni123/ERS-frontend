@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <div className="container" id="home">
       <div className="row">
-        <div className="col-lg-6 entry">
+        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-6 entry">
           <h1>
             Everyone wants innovation through <span>ROBOTICS</span>
           </h1>
@@ -20,12 +20,12 @@ const Landing = () => {
             also have all this pop-culture real estate that they take up in
             people's minds." -Daniel H. Wilson
           </p>
-          <Button className="btn btn-lg rounded-pill tourBtn">
+          <Button className="btn btn-sm stylebutton">
             Take a tour
           </Button>
         </div>
 
-        <div className="col-lg-6 entryImg">
+        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-6 entryImg">
           <img
             className="title-image"
             id="robot"

@@ -26,8 +26,8 @@
 }
 
 .entryImg {
-    padding-top: 16vh;
-    padding-right: 6vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
     -webkit-animation: anime_hero 10s linear infinite alternate;
     animation: anime_hero 10s linear infinite alternate;
 }
@@ -40,11 +40,26 @@
         transform: scale(0.8);
     }
 }
-
-.tourBtn {
-    Background: #b71540;
-}
-
 #robot {
     filter: drop-shadow(0 -6mm 4mm rgba(8, 1, 10, 0.51));
+}
+.stylebutton{
+  padding:45px 32px;
+  background: #b71540;
+  line-height: 25px;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border-radius: 35px;
+  outline: none;
+}
+.stylebutton:hover{
+  background-color: white;
+  color: #030b22;
+  box-shadow: 2px 2px 50px 10px blue;
+  margin-top: 0.5rem;
 }
