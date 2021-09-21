@@ -6,6 +6,7 @@ import Map from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
 import Event from "./components/Event/Event";
 import Position from "./components/Position_Holder/Position_Holder";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Landing />
       <About />
       <Event />
+      <Gallery />
       <Team />
       <Position />
       <Map />
