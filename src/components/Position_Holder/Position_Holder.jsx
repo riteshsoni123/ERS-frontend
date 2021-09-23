@@ -8,11 +8,13 @@ const Position_Holder = () => {
       <div className="current">
         <div className="individual">
           <h3>2021</h3>
-          <div className="coco">
-            <h5>Co Cordinator:</h5>Anurabh Mittal
-          </div>
-          <div className="co">
-            <h5>Cordinator:</h5>Ayush Mishra
+          <div className="hidden">
+            <div className="coco">
+              <div className>Co Cordinator:</div><div className>Anurabh Mittal</div>
+            </div>
+            <div className="co">
+              <div>Cordinator:</div><div>Ayush Mishra</div>
+            </div>
           </div>
         </div>
       </div>
@@ -20,38 +22,47 @@ const Position_Holder = () => {
       <div className="past">
         <div className="individual">
           <h3>2019</h3>
-          <div className="coco">
-            <h5>Co Cordinator:</h5>Ambuj jain
-          </div>
-          <div className="co">
-            <h5>Cordinator:</h5>Aman Singhal
+          <div className="hidden">
+            <div className="coco">
+              <div>Co Cordinator:</div><div>Ambuj jain</div>
+            </div>
+            <div className="co">
+              <div>Cordinator:</div><div>Aman Singhal</div>
+            </div>
           </div>
         </div>
         <div className="individual">
           <h3>2018</h3>
-          <div className="coco">
-            <h5>Co Cordinator:</h5>Sanjay Singh Chauhan
-          </div>
-          <div className="co">
-            <h5>Cordinator:</h5>Shivendra Singh Pratap
+          <div className="hidden">
+            <div className="coco">
+              <div>Co Cordinator:</div><div>Sanjay Singh Chauhan</div>
+            </div>
+            <div className="co">
+              <div>Cordinator:</div><div>Shivendra Singh Pratap</div>
+            </div>
           </div>
         </div>
         <div className="individual">
           <h3>2017</h3>
-          <div className="coco">
-            <h5>Co Cordinator:</h5>Harsh Srivastava
-          </div>
-          <div className="co">
-            <h5>Cordinator:</h5>Harsh Agarwal
+          <div className="hidden">
+            <div className="coco">
+              <div>Co Cordinator:</div><div>Harsh Srivastava</div>
+              <h5></h5>
+            </div>
+            <div className="co">
+              <div>Cordinator:</div><div>Harsh Agarwal</div>
+            </div>
           </div>
         </div>
         <div className="individual">
           <h3>2016</h3>
-          <div className="coco">
-            <h5>Co Cordinator:</h5>Harsh Agarwal
-          </div>
-          <div className="co">
-            <h5>Cordinator:</h5>Vipul Singh
+          <div className="hidden">
+            <div className="coco">
+              <div>Co Cordinator:</div><div>Harsh Agarwal</div>
+            </div>
+            <div className="co">
+              <div>Cordinator:</div><div>Vipul Singh</div>
+            </div>
           </div>
         </div>
       </div>
